@@ -1,0 +1,21 @@
+Type.registerNamespace("Telerik.Sitefinity.Web.UI.PublicControls.Designers.Views");
+Telerik.Sitefinity.Web.UI.PublicControls.Designers.TwitterWidgetDesigner=function(element){Telerik.Sitefinity.Web.UI.PublicControls.Designers.TwitterWidgetDesigner.initializeBase(this,[element]);
+this._parentDesigner=null;
+this._twitterCodeTextField=null;
+this._scriptEmbedPositionChoiceField=null;
+};
+Telerik.Sitefinity.Web.UI.PublicControls.Designers.TwitterWidgetDesigner.prototype={initialize:function(){Telerik.Sitefinity.Web.UI.PublicControls.Designers.TwitterWidgetDesigner.callBaseMethod(this,"initialize");
+},dispose:function(){Telerik.Sitefinity.Web.UI.PublicControls.Designers.TwitterWidgetDesigner.callBaseMethod(this,"dispose");
+},refreshUI:function(){var controlData=this.get_controlData();
+if(controlData.TwitterWidgetCode){this.get_twitterCodeTextField().set_value(controlData.TwitterWidgetCode);
+}},applyChanges:function(){var controlData=this.get_controlData();
+controlData.TwitterWidgetCode=this.get_twitterCodeTextField().get_value();
+},get_controlData:function(){return this.get_propertyEditor().get_control();
+},get_propertyEditor:function(){return this._propertyEditor;
+},set_propertyEditor:function(value){this._propertyEditor=value;
+},get_twitterCodeTextField:function(){return this._twitterCodeTextField;
+},set_twitterCodeTextField:function(value){this._twitterCodeTextField=value;
+}};
+Telerik.Sitefinity.Web.UI.PublicControls.Designers.TwitterWidgetDesigner.registerClass("Telerik.Sitefinity.Web.UI.PublicControls.Designers.TwitterWidgetDesigner",Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase);
+if(typeof(Sys)!=="undefined"){Sys.Application.notifyScriptLoaded();
+}

@@ -1,0 +1,14 @@
+﻿@using Telerik.Sitefinity.Localization
+@using Telerik.Sitefinity.ModuleEditor
+@using Telerik.Sitefinity.Services
+
+<h2>
+    @(Res.Get<ModuleEditorResources>().DataTypeLabel)
+</h2>
+<div class="sfDropdownList sfFieldWrp">
+    <input id="dataTypes" required="required" class="sfTxt" />
+</div>
+<input id="dataTypesValidationMirrorField" style="width:0; height: 1px;border: 0; position: absolute;" required="required">
+<div class="sfError" id="dataTypesValidationMirrorFieldViolationMessage" style="display:none;"> Data type cannot be empty.</div>
+
+

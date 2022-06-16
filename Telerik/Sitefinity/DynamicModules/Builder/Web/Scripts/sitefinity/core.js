@@ -1,0 +1,23 @@
+var sf={};
+(function($){$.fn.sf=function(){this.form=function(options){var sfForm=this.data("sfForm");
+if(!sfForm){sfForm=new sitefinityForm(this,options);
+sfForm.initialize();
+this.data("sfForm",sfForm);
+}return sfForm;
+};
+return this;
+};
+})(jQuery);
+Array.prototype.findByKey=function(keyProp,keyValue){var count=this.length;
+while(count--){if(this[count][keyProp]==keyValue){return this[count];
+}}return null;
+};
+if(Array.prototype.find==null){Array.prototype.find=function(callback,thisObject){for(var i=0,len=this.length;
+i<len;
+i++){if(callback.call(thisObject,this[i],i,this)){return this[i];
+}}return undefined;
+};
+}if(Array.prototype.remove==null){Array.prototype.remove=function(property,value){var count=this.length;
+while(count--){if(this[count][property]==value){this.splice(count,1);
+}}};
+}

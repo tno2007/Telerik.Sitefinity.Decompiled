@@ -1,0 +1,13 @@
+sitefinityTemplates=function(){};
+sitefinityTemplates.prototype={columns:{editColumn:function(settings){return{title:settings.title,template:'<a href="#" data-command="edit" data-id="${ '+settings.key+' }">${ '+settings.text+" }</a>"};
+},deleteColumn:function(settings){return{title:" ",template:'<a href="#" data-command="delete" data-id="${ '+settings.key+' }">Delete</a>'};
+},actionsMenuColumn:function(actions){var template='<ul class="sfGridActionsMenu"><li class="sfActionMenu"><a href="#">Actions</a><ul>';
+for(var i=0;
+i<actions.length;
+i++){template+="<li>";
+template+='<a href="#" command-name="'+actions[i].command+'">'+actions[i].title+"</a>";
+template+="</li>";
+}template+="</li></ul></ul>";
+return{title:" ",template:template};
+}}};
+sf.templates=new sitefinityTemplates();

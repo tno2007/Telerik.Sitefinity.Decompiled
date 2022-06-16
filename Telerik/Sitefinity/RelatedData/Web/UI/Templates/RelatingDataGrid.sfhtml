@@ -1,0 +1,24 @@
+﻿@using Telerik.Sitefinity.Localization
+#if(data.IsTranslated == false) {#
+	<tr class="sfNotTranslatedRow" data-uid='#= data.uid #'>
+#} else {#
+	<tr data-uid='#= data.uid #'>
+#}#
+    <td class="k-group-cell"></td>
+    <td data-sf-column="Title" class="sfTitleCol">
+	#if(data.LifecycleStatus && data.LifecycleStatus.WorkflowStatus) {#
+        <div class="sfItemTitle sf#= data.LifecycleStatus.WorkflowStatus.toLowerCase() #">
+	#} else {#
+		<div class="sfItemTitle sfavailable">
+	#}#
+		#if(data.IsEditable) {#
+		<a class="sfEditBtn"><strong>#: data.Title  #</strong></a>
+		#} else{#
+		<strong>#: data.Title #</strong>
+		#}#
+		#if(data.LifecycleStatus && data.LifecycleStatus.DisplayStatus) {#
+			<span class="sfStatusLocation">#= data.LifecycleStatus.DisplayStatus #</span>
+		#}#
+        </div>
+    </td>
+</tr>

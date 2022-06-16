@@ -1,0 +1,22 @@
+Type._registerScript("ControlDesignerBase.js",["IControlDesigner.js"]);
+Type.registerNamespace("Telerik.Sitefinity.Web.UI.ControlDesign");
+Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase=function(element){Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase.initializeBase(this,[element]);
+this._propertyEditor=null;
+this._loadDelegate=null;
+};
+Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase.prototype={initialize:function(){Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase.callBaseMethod(this,"initialize");
+this._loadDelegate=Function.createDelegate(this,this._onLoad);
+Sys.Application.add_load(this._loadDelegate);
+},dispose:function(){if(this._loadDelegate){Sys.Application.remove_load(this._loadDelegate);
+delete this._loadDelegate;
+}Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase.callBaseMethod(this,"dispose");
+},refreshUI:function(){alert("This function has to be implemented on the concrete implementation of this class.");
+},applyChanges:function(){alert("This function has to be implemented on the concrete implementation of this class.");
+},_onLoad:function(){this.refreshUI();
+},get_propertyEditor:function(){return this._propertyEditor;
+},set_propertyEditor:function(value){this._propertyEditor=value;
+},get_controlData:function(){return this.get_propertyEditor().get_control();
+}};
+Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase.registerClass("Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase",Sys.UI.Control,Telerik.Sitefinity.Web.UI.ControlDesign.IControlDesigner);
+if(typeof(Sys)!=="undefined"){Sys.Application.notifyScriptLoaded();
+}

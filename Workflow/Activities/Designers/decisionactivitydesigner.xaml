@@ -1,0 +1,93 @@
+<sap:ActivityDesigner x:Class="Telerik.Sitefinity.Workflow.Activities.Designers.DecisionActivityDesigner"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:s="clr-namespace:System;assembly=mscorlib"
+                      xmlns:converters="clr-namespace:Telerik.Sitefinity.Workflow.Converters"
+                      xmlns:converters2="clr-namespace:Telerik.Sitefinity.Workflow.Activities.Designers"
+                      xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+                      xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation"
+                      xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation"
+                      DataContext="{Binding}">
+  <FrameworkElement.Resources>
+    <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter"/>
+    <converters:ComboBoxToArgConverter x:Key="ComboArgConverter"/>
+    <converters2:PlaceHolderNameToStringConverter x:Key="PlaceHolderNameToStringConverter"/>
+    <converters2:DecisionRestrictionTypeToBoolConverter x:Key="restrictionConverter"/>
+  </FrameworkElement.Resources>
+  <Expander IsExpanded="false" Header="{Binding Path=ModelItem.ResultStatus, Mode=OneWay}">
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+        <RowDefinition/>
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="146"/>
+        <ColumnDefinition Width="122"/>
+      </Grid.ColumnDefinitions>
+      <StackPanel Grid.Row="0" Grid.ColumnSpan="2">
+        <TextBlock Text="This decision is..."/>
+        <RadioButton Content="... always available"
+                     IsChecked="{Binding Path=ModelItem.RestrictionType, Mode=TwoWay, ConverterParameter=0, Converter={StaticResource restrictionConverter}}"/>
+        <RadioButton x:Name="Inclusive" Content="...available only if current status:"
+                     IsChecked="{Binding Path=ModelItem.RestrictionType, Mode=TwoWay, ConverterParameter=1, Converter={StaticResource restrictionConverter}}"/>
+        <TextBox Text="{Binding Path=ModelItem.AvailableOnlyIfState, Mode=TwoWay}"
+                 IsEnabled="{Binding ElementName=Inclusive, Path=IsChecked}"/>
+        <RadioButton x:Name="Exclusive" Content="...available only if current status NOT:"
+                     IsChecked="{Binding Path=ModelItem.RestrictionType, Mode=TwoWay, ConverterParameter=2, Converter={StaticResource restrictionConverter}}"/>
+        <TextBox Text="{Binding Path=ModelItem.AvailableOnlyIfStateNot, Mode=TwoWay}"
+                 IsEnabled="{Binding ElementName=Exclusive, Path=IsChecked}"/>
+        <CheckBox Content="Hide if no status?" IsChecked="{Binding Path=ModelItem.HideIfNoStatus, Mode=TwoWay}"/>
+      </StackPanel>
+      <TextBlock Grid.Row="1" Text="Display title:"/>
+      <TextBox Grid.Row="1" Grid.Column="1" MaxLines="1" Margin="0,5" Width="110"
+               Text="{Binding Path=ModelItem.Title, Mode=TwoWay}">
+      </TextBox>
+      <TextBlock Text="Result Status:" Grid.Row="2"/>
+      <TextBox Grid.Row="2" Grid.Column="1" MaxLines="1" Margin="0,5" Width="110"
+               Text="{Binding Path=ModelItem.ResultStatus, Mode=TwoWay}">
+      </TextBox>
+      <TextBlock Text="CSS class:" Grid.Row="3"/>
+      <TextBox Grid.Row="3" Grid.Column="1" MaxLines="1" Margin="0,5" Width="110"
+               Text="{Binding Path=ModelItem.CssClass, Mode=TwoWay}">
+      </TextBox>
+      <TextBlock Text="Ordinal:" Grid.Row="4"/>
+      <TextBox Grid.Column="1" Grid.Row="4" Width="110" Margin="0,5" MaxLines="1"
+               Text="{Binding Path=ModelItem.Ordinal, Mode=TwoWay}">
+      </TextBox>
+      <TextBlock Text="Argument Dialog Name:" Grid.Row="5"/>
+      <TextBox Grid.Column="1" Grid.Row="5" Width="110" Margin="0,5" MaxLines="1"
+               Text="{Binding Path=ModelItem.ArgumentDialogName, Mode=TwoWay}">
+      </TextBox>
+      <TextBlock Text="Content command name" Grid.Row="6"/>
+      <TextBox Grid.Column="2" Grid.Row="6" Width="110" Margin="0,5" MaxLines="1"
+               ToolTip="Command to be executed on the client"
+               Text="{Binding Path=ModelItem.ContentCommandName, Mode=TwoWay}">
+      </TextBox>
+      <TextBlock Text="Placeholder name:" Grid.Row="7"/>
+      <ComboBox Grid.Column="1" Grid.Row="7" Height="22" VerticalAlignment="Top"
+                SelectedItem="{Binding Path=ModelItem.Placeholder, Mode=TwoWay, Converter={StaticResource PlaceHolderNameToStringConverter}}"
+                ItemsSource="{Binding Path=Placeholders}"/>
+      <TextBlock Text="Resource class" Grid.Row="8"/>
+      <TextBox Grid.Column="2" Grid.Row="8" Width="110" Margin="0,5" MaxLines="1"
+               Text="{Binding Path=ModelItem.ResourceClass, Mode=TwoWay}">
+      </TextBox>
+      <CheckBox Grid.Row="9" Grid.ColumnSpan="2" Content="Persist on decision"
+                IsChecked="{Binding Path=ModelItem.PersistOnDecision, Mode=TwoWay}"/>
+      <CheckBox Grid.Row="10" Grid.ColumnSpan="2" Content="Closes form"
+                IsChecked="{Binding Path=ModelItem.ClosesForm}"/>
+      <CheckBox Grid.Row="11" Grid.ColumnSpan="2" Content="Run as UI command"
+                IsChecked="{Binding Path=ModelItem.RunAsUICommand}"/>
+    </Grid>
+  </Expander>
+</sap:ActivityDesigner>

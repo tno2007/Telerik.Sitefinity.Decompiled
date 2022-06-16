@@ -1,0 +1,27 @@
+<sap:ActivityDesigner x:Class="Telerik.Sitefinity.Workflow.Activities.Designers.ClearScheduledOperationsActivityDesigner"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+                      xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition/>
+      <RowDefinition/>
+      <RowDefinition/>
+      <RowDefinition/>
+      <RowDefinition/>
+      <RowDefinition/>
+    </Grid.RowDefinitions>
+    <TextBlock Text="Related Workflow operations:"/>
+    <TextBlock Text="Scheduled operations to remove:" Grid.Row="2"/>
+    <TextBlock Text="Related item status" Grid.Row="4"/>
+    <TextBox Name="tbWfItemStates" Grid.Row="1" TextWrapping="Wrap" Margin="6,0,0,0"
+             Text="{Binding Path=ModelItem.OperationsCondition, Mode=TwoWay}"/>
+    <TextBox Name="tbScheduledOperations" Grid.Row="3" TextWrapping="Wrap" Margin="6,0,0,0"
+             Text="{Binding Path=ModelItem.OperationsToClear, Mode=TwoWay}"/>
+    <TextBox Name="tbItemStatus" Grid.Row="5" TextWrapping="Wrap" Margin="6,0,0,0"
+             Text="{Binding Path=ModelItem.StatusCondition, Mode=TwoWay}"/>
+  </Grid>
+</sap:ActivityDesigner>

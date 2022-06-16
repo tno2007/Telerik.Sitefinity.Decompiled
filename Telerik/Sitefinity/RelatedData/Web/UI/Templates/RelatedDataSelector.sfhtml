@@ -1,0 +1,27 @@
+﻿@using Telerik.Sitefinity.Localization
+@using Telerik.Sitefinity.ModuleEditor
+
+<div class="sfPercentageColsDim">
+	<h1><span data-bind="text: selectorTitle"></span></h1>
+	<fieldset class="sfBasicDim sfFlatDialogSelector">
+		<div class="sfContentViews sfDim550">
+			<ul class="sfTabstrip sfMTop10 sfHBorderBottom sfPBottom15">
+				<li>
+					<a id="filterAllBtn" data-bind="events: { click: showAllItems }" class="sfSel">@(Res.Get<ModuleEditorResources>().FilterAllButton) (<span data-bind="text: allItemsCount"></span>)</a>
+				</li>
+				<li>
+					<a id="filterSelectedBtn" data-bind="events: { click: showSelected }" class="">@(Res.Get<ModuleEditorResources>().FilterSelectedButton) (<span data-bind="text: selectedItemsCount"></span>)</a>
+				</li>
+			</ul>
+			<div id="itemSelectorContainer"></div>
+			<div id="selectedItemsContainer" style="display:none;"></div>
+		</div>
+		<div class="sfAlignRight sfMBottom20">
+			<a id="createItemBtn" data-bind="visible: showCreateBtn, events: { click: createItem }" class="sfLinkBtn sfChange"><span class="sfLinkBtnIn">@(Res.Get<ModuleEditorResources>().CreateNewItemBtn)</span></a>
+		</div>
+		<div class="sfButtonArea sfSelectorBtns">
+			<a id="doneButton" data-bind="events: { click: done }" class="sfLinkBtn sfSave"><span class="sfLinkBtnIn">@(Res.Get<ModuleEditorResources>().DoneButtonLabel)</span>
+			</a>
+		</div>
+	</fieldset>
+</div>

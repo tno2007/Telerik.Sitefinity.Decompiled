@@ -1,0 +1,37 @@
+﻿@using Telerik.Sitefinity.Localization
+@using Telerik.Sitefinity.Web.UI.PublicControls
+@using Telerik.Sitefinity.ModuleEditor
+@using Telerik.Sitefinity.Services
+@using System.Linq;
+@using System;
+
+<input type="hidden" value="@(SystemManager.CurrentContext.AppSettings.DefaultFrontendLanguage)" data-bind="serverValue: defaultLanguage" />
+<input type="hidden" value="@(String.Join(";", SystemManager.CurrentContext.AppSettings.DefinedFrontendLanguages.Select(x => x.Name)))" data-bind="serverValue: languages" />
+<input type="hidden" value="@(Res.Get<ModuleEditorResources>().EmptyGridMessage)" data-bind="serverValue: emptyGridMessage" />
+
+<div class="sfSelectorFilters sfClearfix">
+	<div class="sfSearchBoxSetWrp" data-bind="visible: enableSearch">
+		<div class="sfSearchBoxSet sfSearchWithDelete">
+			<input class="sfTxt sfTxtLarge" data-value-update="keyup" data-bind="keyUp: onSearch, value: searchValue" placeholder="Narrow by typing..." />
+			<a data-bind="click: onClearFilter, visible: clearFilterVisible" class="sfClear sfMoreDetails sfSmallerTxt">@(Res.Get<PublicControlsResources>().ClearFilter)</a>
+		</div>
+	</div>
+	<select class="sfTxt sfProvidersList sfProvidersListLarge" data-bind="visible: enableProviderSelector" id="providersSelector"><select>
+</div>
+
+<div class="sfSelectorGridWrapper">
+    <div id="selectorGrid" style="display: none;"></div>
+</div>
+<script id="dataItemTemplate" type="text/x-kendo-template">
+    <tr data-uid='#= data.uid #'>
+        <td class="sfCheckBoxCol">
+            <input type="checkbox" value="#= data.Id#" class="sfSelectDataItem" />
+        </td>
+        <td data-sf-column="Title" colspan="4">
+            <label>#: data.Title#</label>
+            #if(data.IsTranslated == false) {#
+                <span>(@(Res.Get<LocalizationResources>().NotTranslated))</span>
+            #}#
+        </td>
+    </tr>
+</script>

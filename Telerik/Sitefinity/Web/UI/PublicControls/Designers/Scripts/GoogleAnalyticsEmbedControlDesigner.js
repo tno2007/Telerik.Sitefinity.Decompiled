@@ -1,0 +1,21 @@
+Type.registerNamespace("Telerik.Sitefinity.Web.UI.PublicControls.Designers.Views");
+Telerik.Sitefinity.Web.UI.PublicControls.Designers.GoogleAnalyticsEmbedControlDesigner=function(element){Telerik.Sitefinity.Web.UI.PublicControls.Designers.GoogleAnalyticsEmbedControlDesigner.initializeBase(this,[element]);
+this._parentDesigner=null;
+this._googleAnalyticsCodeTextField=null;
+this._scriptEmbedPositionChoiceField=null;
+};
+Telerik.Sitefinity.Web.UI.PublicControls.Designers.GoogleAnalyticsEmbedControlDesigner.prototype={initialize:function(){Telerik.Sitefinity.Web.UI.PublicControls.Designers.GoogleAnalyticsEmbedControlDesigner.callBaseMethod(this,"initialize");
+},dispose:function(){Telerik.Sitefinity.Web.UI.PublicControls.Designers.GoogleAnalyticsEmbedControlDesigner.callBaseMethod(this,"dispose");
+},refreshUI:function(){var controlData=this.get_controlData();
+if(controlData.GoogleAnalyticsCode){this.get_googleAnalyticsCodeTextField().set_value(controlData.GoogleAnalyticsCode);
+}},applyChanges:function(){var controlData=this.get_controlData();
+controlData.GoogleAnalyticsCode=this.get_googleAnalyticsCodeTextField().get_value();
+},get_controlData:function(){return this.get_propertyEditor().get_control();
+},get_propertyEditor:function(){return this._propertyEditor;
+},set_propertyEditor:function(value){this._propertyEditor=value;
+},get_googleAnalyticsCodeTextField:function(){return this._googleAnalyticsCodeTextField;
+},set_googleAnalyticsCodeTextField:function(value){this._googleAnalyticsCodeTextField=value;
+}};
+Telerik.Sitefinity.Web.UI.PublicControls.Designers.GoogleAnalyticsEmbedControlDesigner.registerClass("Telerik.Sitefinity.Web.UI.PublicControls.Designers.GoogleAnalyticsEmbedControlDesigner",Telerik.Sitefinity.Web.UI.ControlDesign.ControlDesignerBase);
+if(typeof(Sys)!=="undefined"){Sys.Application.notifyScriptLoaded();
+}

@@ -1,0 +1,24 @@
+Type._registerScript("CustomListSettingsDesignerView.js",["IDesignerViewControl.js"]);
+Type.registerNamespace("Telerik.Sitefinity.Web.UI.ControlDesign.ContentView");
+Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView=function(element){this._sortableFields=null;
+Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView.initializeBase(this,[element]);
+};
+Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView.prototype={initialize:function(){Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView.callBaseMethod(this,"initialize");
+},dispose:function(){Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView.callBaseMethod(this,"dispose");
+},applyChanges:function(){Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView.callBaseMethod(this,"applyChanges");
+},refreshUI:function(){Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView.callBaseMethod(this,"refreshUI");
+},notifyViewSelected:function(){var currentView=this.get_currentView();
+var masterDefinitions=this.get_controlData().ControlDefinition.Views.UserProfilesFrontendMaster;
+var sortExpressionsField=this._getFieldControl("CommonMasterDefinition.SortExpression");
+sortExpressionsField.clearListItems();
+var newOptions=this._sortableFields[masterDefinitions.ProfileTypeFullName];
+for(var option in newOptions){sortExpressionsField.addListItem(option,newOptions[option]);
+}sortExpressionsField.set_value(currentView.SortExpression);
+},get_parentDesigner:function(){return this._parentDesigner;
+},set_parentDesigner:function(value){this._parentDesigner=value;
+},get_sortableFields:function(){return this._sortableFields;
+},set_sortableFields:function(value){this._sortableFields=value;
+}};
+Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView.registerClass("Telerik.Sitefinity.Web.UI.ControlDesign.ContentView.CustomListSettingsDesignerView",Telerik.Sitefinity.Web.UI.ControlDesign.ListSettingsDesignerView,Telerik.Sitefinity.Web.UI.ControlDesign.IDesignerViewControl);
+if(typeof(Sys)!=="undefined"){Sys.Application.notifyScriptLoaded();
+}

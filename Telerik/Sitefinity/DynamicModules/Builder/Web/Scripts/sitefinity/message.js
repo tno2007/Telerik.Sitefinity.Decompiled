@@ -1,0 +1,17 @@
+(function($){$.fn.message=function(state){return this.each(function(){var $this=$(this);
+var states=["initialize","negative","positive","normal"];
+function removeLastState(){for(i=0;
+i<states.length;
+i++){var currentState=states[i];
+if($this.hasClass(currentState)){$this.removeClass(currentState);
+}}}if(!state){removeLastState();
+$this.addClass("initialize");
+}else{if(state=="negative"){removeLastState();
+$this.addClass("negative");
+}if(state=="positive"){removeLastState();
+$this.addClass("positive");
+}if(state=="normal"){removeLastState();
+$this.addClass("normal");
+}}});
+};
+})(jQuery);

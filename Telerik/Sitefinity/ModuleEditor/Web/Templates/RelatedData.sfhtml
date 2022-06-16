@@ -1,0 +1,185 @@
+﻿@using Telerik.Sitefinity.Localization
+@using Telerik.Sitefinity.ModuleEditor
+
+<div id="typeFieldEditorStep2">
+    <div class="k-content k-state-active sfContentViews">
+        <!-------------------------------- Default Widget Dropdowns --------------------------------------------------->
+        <div>
+			<div data-bind="invisible: options.dataType.isPage">
+				<h2 class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().RelatedItemSourceLable)</h2>
+				<div class="sfDropdownList sfFieldWrp sfFirstCtrl sfFormCtrl">
+					<label class="sfTxtLbl" for="dataTypeProviders">
+						@(Res.Get<ModuleEditorResources>().RelatedItemSourceSelectingLabel)
+					</label>
+					<input id="dataTypeProviders" required="required" class="sfTxt"/>
+				</div>
+			</div>
+
+			<h2 class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().RelatedItemsInterfaceWidgetGroupingTitle)</h2>
+
+            <div data-bind="visible: options.dataType.isContentType">
+                <label for="relatedDataWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                <select data-bind="relatedDataWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="relatedDataWidgetSelector" class="sfBackendWidgetTypeSelector">
+                    <option value="Telerik.Sitefinity.Web.UI.Fields.RelatedDataField">@(Res.Get<ModuleEditorResources>().RelatedItemDefaultWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isPage">
+                <label for="relatedPageDataWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                <select data-bind="relatedDataWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="relatedPageDataWidgetSelector" class="sfBackendWidgetTypeSelector">
+                    <option value="Telerik.Sitefinity.Web.UI.Fields.RelatedDataField">@(Res.Get<ModuleEditorResources>().RelatedPageItemDefaultWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isNews">
+                <label for="relatedPageDataWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                <select data-bind="relatedDataWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="Select1" class="sfBackendWidgetTypeSelector">
+                    <option value="Telerik.Sitefinity.Web.UI.Fields.RelatedDataField">@(Res.Get<ModuleEditorResources>().RelatedItemDefaultWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isEvents">
+                <label for="relatedPageDataWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                <select data-bind="relatedDataWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="Select2" class="sfBackendWidgetTypeSelector">
+                    <option value="Telerik.Sitefinity.Web.UI.Fields.RelatedDataField">@(Res.Get<ModuleEditorResources>().RelatedItemDefaultWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isBlogPosts">
+                <label for="relatedPageDataWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                <select data-bind="relatedDataWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="Select4" class="sfBackendWidgetTypeSelector">
+                    <option value="Telerik.Sitefinity.Web.UI.Fields.RelatedDataField">@(Res.Get<ModuleEditorResources>().RelatedItemDefaultWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isProductType">
+                <label for="productTypeWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                <select data-bind="relatedDataWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="productTypeWidgetSelector">
+                    <option value="Telerik.Sitefinity.Web.UI.Fields.RelatedDataField">@(Res.Get<ModuleEditorResources>().RelatedItemDefaultWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+        </div>
+        <!-------------------------------- Default Widget Dropdowns End Region ----------------------------------->
+        <div id="typeFieldEditor_customWidgetBox" class="sfFormCtrl" data-bind="visible: isWidgetTypeNameVisible">
+            <label for="widgetSelectorVirtualPath" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathLabel)</label>
+            <input id="widgetSelectorVirtualPath" data-bind="value: field.WidgetTypeName" type="text" class="sfTxt">
+            <p class="sfExample">@(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathExample)</p>
+        </div>
+        <div class="sfFormCtrl">
+            <label for="widgetSelectorLabel" class="sfTxtLbl" style="display: block;"> @(Res.Get<ModuleEditorResources>().LabelLiteral)</label>
+            <input id="widgetSelectorLabel" data-bind="value: field.Title" type="text" class="sfTxt">
+            <p class="sfExample" style="display: block;">
+                @(Res.Get<ModuleEditorResources>().RelatedItemWidgetLabelInstructionalText)
+            </p>
+        </div>
+        <div class="sfFormCtrl sfDependant sfShortText sfLongText sfYesNo sfCurrency sfDateTime sfNumber sfUnknown sfImageMedia sfVideoMedia sfFileMedia sfGuid sfGuidArray">
+            <label for="widgetSelectorInstructionalText" class="sfTxtLbl">
+                @(Res.Get<ModuleEditorResources>().LabelForInstructionalTextField)
+            </label>
+            <textarea id="widgetSelectorInstructionalText" rows="5" cols="50" class="sfTxt" data-bind="value: field.InstructionalText"></textarea>
+            <p class="sfExample">
+                @(Res.Get<ModuleEditorResources>().InstructionalTextForInstructionalTextField)
+            </p>
+        </div>
+        <div class="sfFormCtrl sfCheckBox">
+            <input type="checkbox" id="isFieldRequired" data-bind="checked: field.IsRequired">
+            <label for="isFieldRequired">
+                @(Res.Get<ModuleEditorResources>().RequiredFieldCheckboxLabel)
+            </label>
+        </div>
+        <div class="sfCheckBox">
+            <input type="checkbox" id="canSelectMultipleItems" data-bind="checked: field.CanSelectMultipleItems">
+            <label for="canSelectMultipleItems">
+                @(Res.Get<ModuleEditorResources>().MultipleItemsCheckboxLabel)
+            </label>
+        </div>
+        <!-------------------------------- Default Front end Widgets Dropdowns --------------------------------------------------->
+        <div>
+            <h2 class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().RelatedItemFrontendWidgetGroupingTitle)</h2>
+            <div data-bind="visible: options.dataType.isContentType">
+                <select data-bind="relatedDataWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="relatedDataWidgetSelectorFrontend" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                    <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+                    <option value="Telerik.Sitefinity.DynamicModules.Web.UI.Frontend.DynamicContentView">@(Res.Get<ModuleEditorResources>().RelatedItemDefaultFrontendWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isPage">
+                <select data-bind="relatedDataWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="relatedPageWidgetSelectorFrontend" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                    <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+                    <option value="Telerik.Sitefinity.Web.UI.NavigationControls.LightNavigationControl">@(Res.Get<ModuleEditorResources>().RelatedPageItemDefaultFrontendWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isNews">
+                <select data-bind="relatedDataWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="Select5" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                    <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+                    <option value="Telerik.Sitefinity.Modules.News.Web.UI.NewsView">@(Res.Get<ModuleEditorResources>().RelatedNewsDefaultFrontendWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isEvents">
+                <select data-bind="relatedDataWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="Select6" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                    <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+                    <option value="Telerik.Sitefinity.Modules.Events.Web.UI.EventsView">@(Res.Get<ModuleEditorResources>().RelatedEventsDefaultFrontendWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isBlogs">
+                <select data-bind="relatedDataWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="Select7" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                    <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+                    <option value="Telerik.Sitefinity.Modules.Blogs.Web.UI.BlogsListControl">@(Res.Get<ModuleEditorResources>().RelatedBlogsDefaultFrontendWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isBlogPosts">
+                <select data-bind="relatedDataWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="Select8" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                    <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+                    <option value="Telerik.Sitefinity.Modules.Blogs.Web.UI.BlogPostView">@(Res.Get<ModuleEditorResources>().RelatedBlogPostsDefaultFrontendWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+            <div data-bind="visible: options.dataType.isProductType">
+                <select data-bind="relatedDataWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="productWidgetSelectorFrontend" data-sf-frontend="true">
+                    <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+                    <option value="Telerik.Sitefinity.Modules.Ecommerce.Catalog.Web.UI.Views.LightProductsView">@(Res.Get<ModuleEditorResources>().ProductItemDefaultFrontendWidgetName)</option>
+                    <optgroup label="--------------------"></optgroup>
+                    <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel)</option>
+                </select>
+            </div>
+        </div>
+        <!-------------------------------- Default Front end Widgets Dropdowns End Region ---------------------------------------->
+        <div class="sfFormCtrl" data-bind="visible: isFrontendWidgetTypeNameVisible">
+            <label for="frontendWidgetSelectorVirtualPath" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathLabel)</label>
+            <input id="frontendWidgetSelectorVirtualPath" data-bind="value: field.FrontendWidgetTypeName" type="text" class="sfTxt">
+            <p class="sfExample">@(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathExample) </p>
+        </div>
+        <div class="sfFormCtrl">
+            <label for="frontendWidgetSelectorLabel" class="sfTxtLbl" style="display: block;"> @(Res.Get<ModuleEditorResources>().LabelLiteral)</label>
+            <input id="frontendWidgetSelectorLabel" data-bind="value: field.FrontendWidgetLabel" type="text" class="sfTxt" style="display: inline-block;">
+            <p class="sfExample">
+                @(Res.Get<ModuleEditorResources>().FrontendRelatedItemWidgetLabelInstructionalText)
+            </p>
+        </div>
+    </div>
+    <div class="sfButtonArea sfSelectorBtns">
+        <a id="doneStep2Button" data-bind="events: { click: done }" class="sfLinkBtn sfSave"><span class="sfLinkBtnIn">@(Res.Get<ModuleEditorResources>().DoneButtonLabel)</span>
+        </a>
+        <a id="backStep2Button" data-bind="invisible: options.isEditMode, events: { click: back }" class="sfLinkBtn"><span class="sfLinkBtnIn">@(Res.Get<ModuleEditorResources>().BackButtonLabel)</span>
+        </a>
+        <a id="cancelButton2" data-bind="events: { click: cancel }" class="sfCancel">@(Res.Get<ModuleEditorResources>().CancelButtonLabel)
+        </a>
+    </div>
+</div>

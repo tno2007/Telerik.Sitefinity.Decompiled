@@ -1,0 +1,62 @@
+﻿@using Telerik.Sitefinity.Localization
+@using Telerik.Sitefinity.ModuleEditor
+
+#if(data.IsTranslated == false) {#
+	<tr class="sfNotTranslatedRow" data-uid='#= data.uid #'>
+#} else {#
+	<tr data-uid='#= data.uid #'>
+#}#
+	#if (this.visibleColumns['AllowMultiple']) {#
+		<td class="sfCheckBoxCol">
+			<input type="checkbox" value="#= data.Id#" class="sfSelectDataItem" />
+		</td>
+	#}#
+	#if (this.visibleColumns['AllowSorting']) {#
+		<td class="sfSortingCol">
+			<div class="sfGrippy"></div>
+		</td>
+	#}#
+	#if (this.visibleColumns['MainIdentifierField']) {#
+		<td class="sfTitleCol #if(data.IsTranslated == false){# sfNowrapLine #}#">
+			<div class="sfItemTitle sf#= data.LifecycleStatus && data.LifecycleStatus.WorkflowStatus != '' ? data.LifecycleStatus.WorkflowStatus.toLowerCase() : 'available' #">
+				<strong #if(data.IsTranslated == false) {# class="sfMaxWidth200" #}#>#: data.Title #</strong>
+				<span class="sfStatusLocation">#= data.LifecycleStatus.DisplayStatus #
+					#= data.SubTitle #
+				</span>
+			</div>
+			#if(data.IsTranslated == false) {#
+				<i class="sfNotTranslatedLbl">(not translated)</i>
+			#} #
+		</td>
+	#}#
+	#if (this.visibleColumns['LastModified']) {#
+		<td class="sfDate">
+			# if (data.LastModified.match) { #
+				#= new Date(data.LastModified.match(/\d+/)[0] * 1).format('dd MMM yyyy').toString() #
+			#} else {#
+				#= data.LastModified.format('dd MMM yyyy').toString() #
+			#}#
+		</td>
+	#}#
+	#if (this.visibleColumns['Owner']) {#
+		<td class="sfShort">#= data.Owner #
+		</td>
+	#}#
+	#if (this.visibleColumns['Edit']) {#
+		<td class="sfEditCol">
+		#if (data.IsEditable) {#
+			<a class="#= this.editItemCommandCss(data) #"><span>#= this.editItemLabel(data) #</span></a>
+		#}#
+		</td>
+	#}#
+	#if (this.visibleColumns['Preview']) {#
+		<td class="sfView">
+			<a href="${ data.PreviewUrl }" class="sfExternal" target="_blank"><span>@(Res.Get<ModuleEditorResources>().ViewLinkLabel)</span></a>
+		</td>
+	#}#
+	#if (this.visibleColumns['Remove']) {#
+		<td class="sfDeleteCol">
+			<a class="sfXItm sfDelBtn"><span>@(Res.Get<ModuleEditorResources>().DeleteLinkLabel)</span></a>
+		</td>
+	#}#
+</tr>

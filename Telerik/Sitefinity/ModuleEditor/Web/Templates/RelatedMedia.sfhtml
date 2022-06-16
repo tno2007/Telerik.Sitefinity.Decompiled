@@ -1,0 +1,295 @@
+﻿@using Telerik.Sitefinity.Localization
+@using Telerik.Sitefinity.ModuleEditor
+ 
+<div id="typeFieldEditorStep2">
+    <!-- additional settings -->
+    <div id="mediaTypeFieldEditor_Tabstrip" class="k-sitefinity k-widget k-header k-tabstrip" data-role="tabstrip" tabindex="0" role="tablist" aria-activedescendant="typeFieldEditor_Tabstrip_ts_active" data-animation="false" data-bind="events: { activate: tabActivate }">
+        <ul class="k-tabstrip-items k-reset">
+            <li class="k-state-active k-item k-tab-on-top k-state-default k-first" role="tab" aria-selected="true" aria-controls="typeFieldEditor_Tabstrip-1"><span class="k-loading k-complete"></span><a class="k-link">@(Res.Get<ModuleEditorResources>().GeneralTabName)
+            </a></li>
+            <li id="typeFieldEditor_limitationsTab" class="k-item k-state-default k-last" role="tab" aria-controls="typeFieldEditor_Tabstrip-2"><span class="k-loading k-complete"></span><a class="k-link">@(Res.Get<ModuleEditorResources>().LimitationsTabName)
+            </a></li>
+        </ul>
+        <div class="k-content k-state-active sfContentViews" id="typeFieldEditor_Tabstrip-1" role="tabpanel" aria-expanded="true" style="display: block;">
+				<h2 class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().RelatedItemSourceLable)</h2>
+				<div class="sfDropdownList sfFieldWrp sfFirstCtrl sfFormCtrl">
+					<label class="sfTxtLbl" for="mediaDataProviders">
+						@(Res.Get<ModuleEditorResources>().RelatedItemSourceSelectingLabel)
+					</label>
+					<input id="mediaDataProviders" required="required" class="sfTxt"/>
+				</div>
+			<div data-bind="visible: options.mediaType.isImage">
+				<h2 data-bind="visible: options.isNotOpenGraphMedia" class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().ImagesInterfaceWidgetGroupingTitle)</h2>				
+                <div>
+                    <label for="imageWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                    <select data-bind="relatedMediaWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="imageWidgetSelector" class="sfBackendWidgetTypeSelector">
+                        <option value="default">@(Res.Get<ModuleEditorResources>().ImagesDefaultWidgetName)</option>
+                        <optgroup label="--------------------"></optgroup>
+                        <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel) </option>
+                    </select>
+                </div>
+            </div>
+            <div data-bind="visible: options.mediaType.isVideo">
+				<h2 data-bind="visible: options.isNotOpenGraphMedia" class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().VideosInterfaceWidgetGroupingTitle)</h2>
+                <div>
+                    <label for="videoWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                    <select data-bind="relatedMediaWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="videoWidgetSelector" class="sfBackendWidgetTypeSelector">
+                        <option value="default">@(Res.Get<ModuleEditorResources>().VideosDefaultWidgetName)</option>
+                        <optgroup label="--------------------"></optgroup>
+                        <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel) </option>
+                    </select>
+                </div>
+            </div>
+            <div data-bind="visible: options.mediaType.isFile">
+				<h2 class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().DocumentsInterfaceWidgetGroupingTitle)</h2>
+                <div>
+                    <label for="fileWidgetSelector" class="sfTxtLbl">@(Res.Get<ModuleEditorResources>().WidgetLabel)</label>
+                    <select data-bind="relatedMediaWidgetTypeName: field.WidgetTypeName, events: { change: widgetTypeNameChanged }" id="fileWidgetSelector" class="sfBackendWidgetTypeSelector">
+                        <option value="default">@(Res.Get<ModuleEditorResources>().DocumentsDefaultWidgetName)</option>
+                        <optgroup label="--------------------"></optgroup>
+                        <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel) </option>
+                    </select>
+                </div>
+            </div>
+            <div id="typeFieldEditor_customWidgetBox" class="sfFormCtrl" data-bind="visible: isWidgetTypeNameVisible">
+                <label for="widgetSelectorVirtualPath" class="sfTxtLbl">
+                    @(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathLabel)
+                </label>
+                <input id="widgetSelectorVirtualPath" data-bind="value: field.WidgetTypeName" type="text" class="sfTxt">
+                <p class="sfExample">
+                     @(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathExample)
+                </p>
+            </div>
+
+            <div class="sfFormCtrl">
+                <label for="widgetSelectorLabel" class="sfTxtLbl" style="display: block;"> @(Res.Get<ModuleEditorResources>().LabelLiteral)</label>
+                <input id="widgetSelectorLabel" data-bind="value: field.Title" type="text" class="sfTxt" style="display: inline-block;">
+                <p class="sfExample" style="display: block;">
+                    @(Res.Get<ModuleEditorResources>().BackendWidgetLabelInstructionalText)
+                </p>
+            </div>
+            <div class="sfFormCtrl sfDependant sfShortText sfLongText sfYesNo sfCurrency sfDateTime sfNumber sfUnknown sfImageMedia sfVideoMedia sfFileMedia sfGuid sfGuidArray">
+                <label for="widgetSelectorInstructionalText" class="sfTxtLbl">
+                    @(Res.Get<ModuleEditorResources>().LabelForInstructionalTextField)
+                </label>
+                <textarea id="widgetSelectorInstructionalText" rows="5" cols="50" class="sfTxt" data-bind="value: field.InstructionalText"></textarea>
+                <p class="sfExample" style="display: block;">
+                    @(Res.Get<ModuleEditorResources>().InstructionalTextForInstructionalTextField)
+                </p>
+            </div>
+            <div class="sfFormCtrl sfCheckBox">
+                <input type="checkbox" id="isFieldRequired" data-bind="checked: field.IsRequired">
+                <label for="isFieldRequired">
+                    @(Res.Get<ModuleEditorResources>().RequiredFieldCheckboxLabel)
+                </label>
+            </div>
+            <div data-bind="visible: options.isNotOpenGraphMedia">
+                <h2 class="sfGroupingTitle">@(Res.Get<ModuleEditorResources>().RelatedItemFrontendWidgetGroupingTitle)</h2>
+                <div data-bind="visible: options.mediaType.isImage">
+                    <select data-bind="relatedMediaWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="imageWidgetSelectorFrontend" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                        <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+						<option value="default">@(Res.Get<ModuleEditorResources>().ImagesFrontendWidgetName)</option>
+                        <optgroup label="--------------------"></optgroup>
+                        <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel) </option>
+                    </select>
+                </div>
+                <div data-bind="visible: options.mediaType.isVideo">
+                    <select data-bind="relatedMediaWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged }" id="videoWidgetSelectorFrontend" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                        <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+						<option value="default">@(Res.Get<ModuleEditorResources>().VideosFrontendWidgetName)</option>
+                        <optgroup label="--------------------"></optgroup>
+                        <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel) </option>
+                    </select>
+                </div>
+                <div data-bind="visible: options.mediaType.isFile">
+                    <select data-bind="relatedMediaWidgetTypeName: field.FrontendWidgetTypeName, events: { change: frontendWidgetTypeNameChanged } " id="fileWidgetSelectorFrontend" data-sf-frontend="true" class="sfFrontendWidgetTypeSelector">
+                        <option value="inline">@(Res.Get<ModuleEditorResources>().SimpleLink)</option>
+						<option value="default">@(Res.Get<ModuleEditorResources>().DocumentsFrontendWidgetName)</option>
+                        <optgroup label="--------------------"></optgroup>
+                        <option value="custom">@(Res.Get<ModuleEditorResources>().CustomWidgetOptionLabel) </option>
+                    </select>
+                </div>
+            </div>
+            <div class="sfFormCtrl" data-bind="visible: isFrontendWidgetTypeNameVisible">
+                <label for="frontendWidgetSelectorVirtualPath" class="sfTxtLbl">
+                    @(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathLabel)
+                </label>
+                <input id="frontendWidgetSelectorVirtualPath" data-bind="value: field.FrontendWidgetTypeName" type="text" class="sfTxt">
+                <p class="sfExample">
+                    @(Res.Get<ModuleEditorResources>().CustomWidgetVirtualPathExample)
+                </p>
+            </div>
+            <div class="sfFormCtrl" data-bind="visible: options.isNotOpenGraphMedia">
+                <label for="frontendWidgetSelectorLabel" class="sfTxtLbl" style="display: block;">@(Res.Get<ModuleEditorResources>().LabelLiteral)</label>
+                <input id="frontendWidgetSelectorLabel" data-bind="value: field.FrontendWidgetLabel" type="text" class="sfTxt" style="display: inline-block;">
+                <p class="sfExample" data-bind="visible: options.mediaType.isImage">
+                    @(Res.Get<ModuleEditorResources>().FrontendImageWidgetLabelInstructionalText)
+                </p>
+                <p class="sfExample" data-bind="visible: options.mediaType.isVideo">
+                    @(Res.Get<ModuleEditorResources>().FrontendVideoWidgetLabelInstructionalText)
+                </p>
+                <p class="sfExample" data-bind="visible: options.mediaType.isFile">
+                    @(Res.Get<ModuleEditorResources>().FrontendFilesWidgetLabelInstructionalText)
+                </p>
+            </div>
+
+        </div>
+        <div class="k-content k-state-active sfContentViews" id="typeFieldEditor_Tabstrip-2" role="tabpanel" aria-expanded="true" style="display: none;">
+
+            <div class="sfDependant sfShortText sfLongText sfCurrency sfDateTime sfNumber sfUnknown sfClassification sfImageMedia sfVideoMedia sfFileMedia sfGuid sfGuidArray" style="display: block;">
+
+                <h2 data-bind="visible: options.isNotOpenGraphMedia">@(Res.Get<ModuleEditorResources>().NumberOfFilesLimitationLabel)</h2>
+                <ul data-bind="visible: options.isNotOpenGraphMedia, events:{change: allowMultipleChanged}">
+                    <li class="sfRadio" data-bind="visible: options.mediaType.isVideo">
+                        <input type="radio" name="videoFieldCountGroup" value="false" data-bind="checked: field.AllowMultipleVideos" id="typeFieldEditor_canUploadSingleVideoFile" />
+                        <label for="typeFieldEditor_canUploadSingleVideoFile">
+                            @(Res.Get<ModuleEditorResources>().OnlyOneVideoLimitation)
+                        </label>
+                    </li>
+                    <li class="sfRadio" data-bind="visible: options.mediaType.isVideo">
+                        <input type="radio" name="videoFieldCountGroup" value="true" data-bind="checked: field.AllowMultipleVideos" id="typeFieldEditor_canUploadMultipleVideoFiles" />
+                        <label for="typeFieldEditor_canUploadMultipleVideoFiles">
+                            @(Res.Get<ModuleEditorResources>().MultipleVideosLimitation)
+                        </label>
+                    </li>
+                    <li class="sfRadio" data-bind="visible: options.mediaType.isFile">
+                        <input type="radio" name="fileFieldCountGroup" value="false" data-bind="checked: field.AllowMultipleFiles" id="typeFieldEditor_canUploadSingleDocFile" />
+                        <label for="typeFieldEditor_canUploadSingleDocFile">
+                            @(Res.Get<ModuleEditorResources>().OnlyOneFileLimitation)
+                        </label>
+                    </li>
+                    <li class="sfRadio" data-bind="visible: options.mediaType.isFile">
+                        <input type="radio" name="fileFieldCountGroup" value="true" data-bind="checked: field.AllowMultipleFiles" id="typeFieldEditor_canUploadMultipleDocFiles" />
+                        <label for="typeFieldEditor_canUploadMultipleDocFiles">
+                            @(Res.Get<ModuleEditorResources>().MultipleFilesLimitation)
+                        </label>
+                    </li>
+                    <li class="sfRadio" data-bind="visible: options.mediaType.isImage">
+                        <input type="radio" name="imagesFieldCountGroup" value="false" data-bind="checked: field.AllowMultipleImages" id="typeFieldEditor_canUploadSingleImageFile" />
+                        <label for="typeFieldEditor_canUploadSingleImageFile">
+                            @(Res.Get<ModuleEditorResources>().OnlyOneImageLimitation)
+                        </label>
+                    </li>
+                    <li class="sfRadio" data-bind="visible: options.mediaType.isImage">
+                        <input type="radio" name="imagesFieldCountGroup" value="true" data-bind="checked: field.AllowMultipleImages" id="typeFieldEditor_canUploadMultipleImageFiles" />
+                        <label for="typeFieldEditor_canUploadMultipleImageFiles">
+                            @(Res.Get<ModuleEditorResources>().MultipleImagesLimitation)
+                        </label>
+                    </li>
+                    </ul>
+                    <ul>
+                    <li class="sfFormCtrl sfShortField80">
+                        <label for="typeFieldEditor_maxFileFileSize" class="sfTxtLbl">
+                             @(Res.Get<ModuleEditorResources>().MaxFileSizeLabel)
+                        </label>
+                        <input type="text" data-bind="value: field.FileMaxSize" id="typeFieldEditor_maxFileFileSize" class="sfTxt" pattern="^([0-9]{0,3})$">
+                        <label>
+                            @(Res.Get<ModuleEditorResources>().MegaBytesLabel)
+                        </label>
+                    </li>
+                    <li data-bind="visible: options.mediaType.isFile">
+                        <label class="sfTxtLbl sfFormCtrl">@(Res.Get<ModuleEditorResources>().AllowedFileTypesLabel)</label>
+                        <ul data-bind="events:{change: allTypesChanged}">
+                            <li class="sfRadio" >
+                                <input type="radio" name="allTypeAllowedCountGroup" value="true" data-bind="checked: allTypeAllowed" id="notAnyTypeAllowed" />
+                                <label for="notAnyTypeAllowed">
+                                    @(Res.Get<ModuleEditorResources>().AllFileTypesLabel)
+                                </label>
+                            </li>
+                            <li class="sfRadio">
+                                <input type="radio" name="allTypeAllowedCountGroup" value="false" data-bind="checked: allTypeAllowed" id="anyTypeAllowed" />
+                                <label for="anyTypeAllowed">
+                                    @(Res.Get<ModuleEditorResources>().SelectedFileTypesLabel)
+                                </label>
+                            </li>
+                        </ul>
+                        <div data-bind="attr: {data-is-visible: selectAllTypes}, visible: selectAllTypes, fileExtensions: field.FileExtensions">
+                            <ul class="sfCheckListBox sfInlineList sfMTop10 sfMLeft20">
+                                <li class="sfMRight15">
+                                    <input data-value=".pdf" id="docExtension_pdf" type="checkbox"><label for="docExtension_pdf">.pdf</label></li>
+                                <li class="sfMRight15">
+                                    <input data-value=".doc,.docx" id="docExtension_doc" type="checkbox"><label for="docExtension_doc">.doc, .docx</label></li>
+                                <li class="sfMRight15">
+                                    <input data-value=".odt" id="docExtension_odt" type="checkbox"><label for="docExtension_odt">.odt</label></li>
+                                <li class="sfMRight15">
+                                    <input data-value=".odp" id="docExtension_odp" type="checkbox"><label for="docExtension_odp">.odp</label></li>
+                                <li class="sfMRight15">
+                                    <input data-value=".xls,.xlsx" id="docExtension_xls" type="checkbox"><label for="docExtension_xls">.xls, .xlsx</label></li>
+                                <li class="sfMRight15">
+                                    <input data-value=".ppt,.pptx,.pps,.ppsx" id="docExtension_ppt" type="checkbox"><label for="docExtension_ppt">.ppt, .pptx, .pps, .ppsx</label></li>
+                                <li class="sfMRight15">
+                                    <input data-value=".ods" id="docExtension_ods" type="checkbox"><label for="docExtension_ods">.ods</label></li>
+                            </ul>
+                            <div class="sfFormCtrl sfMLeft20">
+                                <label for="typeFieldEditor_DocFileExtensions" class="sfTxtLbl">
+                                    @(Res.Get<ModuleEditorResources>().OtherFileTypes)
+                                </label>
+                                <textarea id="typeFieldEditor_DocFileExtensions" rows="3" cols="20" class="sfTxt"></textarea>
+                                <p class="sfExample">
+                                    @(Res.Get<ModuleEditorResources>().OtherExtensionsInstructionalText)
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li data-bind="attr: {data-is-visible: options.mediaType.isImage}, visible: options.mediaType.isImage, fileExtensions: field.FileExtensions">
+                        <label class="sfTxtLbl sfFormCtrl">@(Res.Get<ModuleEditorResources>().AllowedFileTypesLabel)</label>
+                        <ul class="sfCheckListBox sfInlineList">
+                            <li class="sfMRight15">
+                                <input data-value=".jpg" id="imgExtension_jpg" type="checkbox"><label for="imgExtension_jpg">.jpg</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".jpeg" id="imgExtension_jpeg" type="checkbox"><label for="imgExtension_jpeg">.jpeg</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".png" id="imgExtension_png" type="checkbox"><label for="imgExtension_png">.png</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".gif" id="imgExtension_gif" type="checkbox"><label for="imgExtension_gif">.gif</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".bmp" id="imgExtension_bmp" type="checkbox"><label for="imgExtension_bmp">.bmp</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".odg" id="imgExtension_odg" type="checkbox"><label for="imgExtension_odg">.odg</label></li>
+                        </ul>
+                        <div class="sfFormCtrl">
+                            <label for="typeFieldEditor_imageFileExtensions" class="sfTxtLbl">
+                                @(Res.Get<ModuleEditorResources>().OtherLabel)
+                            </label>
+                            <textarea id="typeFieldEditor_imageFileExtensions" rows="3" cols="20" class="sfTxt" placeholder="All extensions"></textarea>
+                            <p class="sfExample">
+                                 @(Res.Get<ModuleEditorResources>().OtherExtensionsInstructionalText)
+                            </p>
+                        </div>
+                    </li>
+                    <li data-bind="attr: {data-is-visible: options.mediaType.isVideo}, visible: options.mediaType.isVideo, fileExtensions: field.FileExtensions">
+                        <label class="sfTxtLbl sfFormCtrl">@(Res.Get<ModuleEditorResources>().AllowedFileTypesLabel)</label>
+                        <ul class="sfCheckListBox sfInlineList">
+                            <li class="sfMRight15">
+                                <input data-value=".mp4" id="videoExtension_mp4" type="checkbox"><label for="videoExtension_mp4">.mp4</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".webm" id="videoExtension_webm" type="checkbox"><label for="videoExtension_webm">.webm</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".ogv" id="videoExtension_ogv" type="checkbox"><label for="videoExtension_ogv">.ogv</label></li>
+                            <li class="sfMRight15">
+                                <input data-value=".wmv" id="videoExtension_wmv" type="checkbox"><label for="videoExtension_wmv">.wmv</label></li>
+                        </ul>
+                        <div class="sfFormCtrl">
+                            <label for="typeFieldEditor_videoFileExtensions" class="sfTxtLbl">
+                                @(Res.Get<ModuleEditorResources>().OtherLabel)
+                            </label>
+                            <textarea id="typeFieldEditor_videoFileExtensions" rows="3" cols="20" class="sfTxt" placeholder="All extensions"></textarea>
+                            <p class="sfExample">
+                                 @(Res.Get<ModuleEditorResources>().OtherExtensionsInstructionalText)
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="sfButtonArea sfSelectorBtns">
+        <a id="doneStep2Button" data-bind="events: { click: done }" class="sfLinkBtn sfSave"><span class="sfLinkBtnIn">@(Res.Get<ModuleEditorResources>().DoneButtonLabel)</span>
+        </a>
+        <a id="backStep2Button" data-bind="invisible: options.isEditMode, events: { click: back }" class="sfLinkBtn"><span class="sfLinkBtnIn">@(Res.Get<ModuleEditorResources>().BackButtonLabel)</span>
+        </a>
+        <a id="cancelButton2" data-bind="events: { click: cancel }" class="sfCancel">@(Res.Get<ModuleEditorResources>().CancelButtonLabel)
+        </a>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+Type.registerNamespace("Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework");
+Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework.SitefinityWizardStepControl=function(element){this._autoSaved=true;
+Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework.SitefinityWizardStepControl.initializeBase(this,[element]);
+};
+Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework.SitefinityWizardStepControl.prototype={initialize:function(){Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework.SitefinityWizardStepControl.callBaseMethod(this,"initialize");
+},dispose:function(){Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework.SitefinityWizardStepControl.callBaseMethod(this,"dispose");
+},isValid:function(){alert("This method must be implemented in the concrete implementation of the SitefinityWizardStepControl abstract class.");
+},show:function(){},reset:function(){},get_autoSaved:function(){return this._autoSaved;
+},set_autoSaved:function(value){this._autoSaved=value;
+}};
+Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework.SitefinityWizardStepControl.registerClass("Telerik.Sitefinity.Modules.Newsletters.Web.UI.WizardFramework.SitefinityWizardStepControl",Sys.UI.Control);

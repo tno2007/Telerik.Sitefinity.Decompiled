@@ -1,0 +1,1439 @@
+﻿[
+  {
+    "id": "pagesfaqclassic",
+    "urlPattern": "\/Sitefinity\/Pages\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/apply-built-in-page-templates-to-pages?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Apply templates to pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/add-widgets-on-pages-and-templates?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add widgets to pages and templates</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-of-pages?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-a-personalized-version-of-a-page?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Personalize pages</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "newsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/News\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/news-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use news in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in news</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "blogpostsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Blogs\/BlogPosts\/([A-Za-z0-9_-]*)\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/blog-posts-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use blog post in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in posts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "blogsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Blogs\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/blogs-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use blogs in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in blogs</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "listitemsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Lists\/ListItems\/([A-Za-z0-9_-]*)\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/list-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use list in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in lists</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "listsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Lists\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/list-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use lists in pages</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "formsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Forms\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/configure-form-widgets?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add fields to forms</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/multipage-forms?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create multipage forms</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/setup-email-notifications-for-form-responses?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set up email notifications for responses</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-responses-to-forms?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage responses</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "eventsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Events\/?($|[?]|Events)",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/events-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use events in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in events</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "contentblocksfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Content%20blocks\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/content-blocks?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with content blocks</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/content-block-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add content blocks to pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with resivion history</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "categoriesfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Hierarchical\/?($|[?]|Categories)",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-categories?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create categories</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "tagsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/Flat\/?($|[?]|Tags)",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-tags?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create tags</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "allclassificationsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/List\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-custom-classifications?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create custom classifications</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-classify-your-content-using-taxonomies?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Classify your content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/set-site-specific-taxonomy?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set site-specific classifications</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "custommodulesfaqclassic",
+    "urlPattern": "\/Sitefinity\/Content\/((?!(Lists|Blogs|News|Events|Images|Videos|Documents|Forms|Comments|Forums|Flat|Hierarchical|List))([A-Za-z0-9_-]*))(\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/[A-Za-z0-9_-]*)?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/dynamic-content-widgets?ref=sf-contexhelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use dynamic content in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "custommodulebuilderfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Module-builder\/module\/",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/dynamic-content-widgets?ref=sf-contexhelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use dynamic content in pages</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "usersfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Users\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-users?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage users</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/administration-user-profiles?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage user profile types</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "templatesfaqclassic",
+    "urlPattern": "\/Sitefinity\/Design\/PageTemplates\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/design-page-templates-in-the-layout-editor?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create page templates</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/add-widgets-on-pages-and-templates?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add widgets to pages and templates</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "permissionsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Permissions\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-permissions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage permissions</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/administration-global-and-section-permissions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set permissions by section</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/administration-permissions-of-users-and-roles?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set permissions by users or roles</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "mobileformatssettingsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Settings\/Basic\/MobileFormatsBasicSettings\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/Configure-mobile-formats#configure-google-amp-for-a-content-type?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Configure mobile formats</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/mobile-formats-templates?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Modify mobile format templates</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/google-amp-canonical-url?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set up Google AMP canonical URL</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "sitesyncsettingsfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Settings\/Basic\/Synchronization\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/setup-sitesync?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set up SiteSync</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "sitesyncfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Synchronization\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/promote-content-with-sitesync?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Promote content with SiteSync</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "rolesfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Roles\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-roles?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage roles</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/administration-manage-permissions-of-roles?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set permissions for roles</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "workflowfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Workflow\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/define-workflows?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Define workflows</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "scheduletasksfaqclassic",
+    "urlPattern": "\/Sitefinity\/Administration\/Scheduled-tasks\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/for-developers-scheduled-tasks?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use scheduled tasks API</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-sitesync-schedule?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage SiteSync schedule</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-translation-schedule?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage translations schedule</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "multisitefaqclassic",
+    "urlPattern": "\/Sitefinity\/MultisiteManagement\/?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/multisite-manage-multiple-sites?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage multiple sites</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/edit-site-properties-and-configure-site-modules?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Configure modules on your sites</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/multiple-site-management-in-multilingual-mode?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add languages to your site</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "listshint",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/lists\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/listitems($|[?])",
+    "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Order list items manually</h4><p>Reorder manually list items the way you want them displayed on the public part of the site.</p></div><div><img width=\"150\" height=\"127\" src=\"{{Images.ContextualHelp.Reorder}}\" alt=\"Tooltip imgage\"></div></div>",
+    "attachTo": ".sf-main__header .sf-button:not(.-action)",
+    "look": "down-right",
+    "boxModelDimensions": {
+      "marginTop": 10,
+      "marginLeft": -21
+    },
+    "showOnce": true
+  },
+  {
+    "id": "listsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/lists($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/list-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use lists in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "listitemsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/lists\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/listitems($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/list-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use lists in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in lists</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "newsitemsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/newsitems($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/news-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use news in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in news</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "custommodulesfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/((?!(lists|blogs|newsitems|events|calendars|images|documents|taxonomies|videos|contentitems))([A-Za-z0-9_-]*))(\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/[A-Za-z0-9_-]*)?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/dynamic-content-widgets?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use dynamic content in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "createeditfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/[A-Za-z0-9_-]*\/((([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/)?([A-Za-z0-9_-]*\/)?((([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/)?(edit|create)[?]",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-create-and-edit-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create and edit content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "blogpostsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/blogs\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/blogposts($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/blog-posts-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use blog posts in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in posts</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "blogsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/blogs($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/blogs-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use blogs in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in blogs</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "calendarsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/calendars($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/calendar-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use calendars in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "eventsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/events($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/events-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use events in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-for-content-items?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-custom-fields?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add custom fields in events</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "imagesrootfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/images($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/image-libraries?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage libraries</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/image-actions?ref=sf-contexthelp#move-items-to-another-library\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Move images to another library</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/image-actions?ref=sf-contexthelp#reorder-images\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Reorder images</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "imagesfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/images\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/images($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/image-libraries?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage libraries</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/image-actions?ref=sf-contexthelp#move-items-to-another-library\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Move images to another library</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/image-actions?ref=sf-contexthelp#reorder-images\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Reorder images</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "imagepropertiesfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/images\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/([A-Za-z0-9_-]*\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/)?edit",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/configure-the-properties-of-an-image?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Edit image properties</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "documentsrootfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/documents($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/document-and-file-libraries?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage libraries</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/document-actions?ref=sf-contexthelp#move-documents-to-another-library\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Move documents to another library</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/document-actions?ref=sf-contexthelp#order-documents-in-a-library\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Reorder documents</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "documentsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/documents\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/documents($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/document-and-file-libraries?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage libraries</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/document-actions?ref=sf-contexthelp#move-documents-to-another-library\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Move documents to another library</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/document-actions?ref=sf-contexthelp#order-documents-in-a-library\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Reorder documents</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "documentpropertiesfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/documents\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/documents\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/?edit",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/configure-the-properties-of-a-document-or-file?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Edit document properties</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "videosrootfaq",
+    "urlPattern": "/Sitefinity/adminapp/content/videos($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/video-libraries?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage libraries</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/move-videos?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Move videos to another library</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/display-sort-filter-and-find-videos#reorder-videos?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Reorder videos</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "videosfaq",
+    "urlPattern": "/Sitefinity/adminapp/content/videos/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/videos($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/video-libraries?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage libraries</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/move-videos?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Move videos to another library</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/display-sort-filter-and-find-videos#reorder-videos?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Reorder videos</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "videopropertiesfaq",
+    "urlPattern": "/Sitefinity/adminapp/content/videos/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/([A-Za-z0-9_-]*/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/)?edit",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/configure-the-properties-of-a-video?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Edit video properties</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "contentitemsfaq",
+    "urlPattern": "/Sitefinity/adminapp/content/contentitems($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/manage-content?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/content-block-widget-mvc?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Use content blocks in pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/content-blocks?ref=sf-contexthelp#bulk-assign-tags-and-categories\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Assign tags and categories</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "contentitemspropertiesfaq",
+    "urlPattern": "/Sitefinity/adminapp/content/contentitems/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/([A-Za-z0-9_-]*/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/)?edit",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/built-in-content-types?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create and edit content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "taxonomiesfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/taxonomies($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-custom-classifications?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create classifications</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/overview-classify-your-content-using-taxonomies?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Classify your content</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/set-site-specific-taxonomy?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Set site-specific classifications</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "categoriesfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/taxonomies\/e5cd6d69-1543-427b-ad62-688a99f5e7d4\/hierarchy-taxa($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/use-categories?ref=sf-contexthelp#create-categories\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create categories</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/add-categories-and-tags-to-content-items?ref=sf-contexthelp#add-categories\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add categories to content items</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/use-categories?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage categories</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/use-categories?ref=sf-contexthelp#reorder-hierarchical-items\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Reorder categories</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "tagsfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/taxonomies\/cb0f3a19-a211-48a7-88ec-77495c0f5374\/flat-taxa($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/use-tags?ref=sf-contexthelp#create-tags\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create tags</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/add-categories-and-tags-to-content-items?ref=sf-contexthelp#add-tags\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add tags to content items</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/use-tags?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage tags</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "taxonomiescustomfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/taxonomies(\/(?!(e5cd6d69-1543-427b-ad62-688a99f5e7d4|cb0f3a19-a211-48a7-88ec-77495c0f5374))(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/(hierarchy-taxa|flat-taxa))($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-custom-classifications?ref=sf-contexthelp#create-a-custom-classification\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Create a custom classification</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-custom-classifications?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Manage custom classification items</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "hierarchicalSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/((?!(images|taxonomies|documents|videos|contentitems))[A-Za-z0-9_-]*)(\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/(?!(create|edit|blogposts|listitems))([A-Za-z0-9_-]*))?($|[?])",
+    "collection": [
+      {
+        "id": "hierarchicalSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Drill down to view child items for this parent</h4><p>Click on a parent item in hierarchical sections to open the list with its child items.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"116\" alt=\"child grid\" src=\"{{Images.ContextualHelp.List}}\"></div></div>",
+        "attachTo": ".sf-main.-list.-hierarchical sf-main-field .sf-row__col",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 10,
+          "marginLeft": -3
+        }
+      },
+      {
+        "id": "hierarchicalSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Find more actions for parent content item</h4><p>Edit title and properties for parent items in Blogs and Lists sections or edit the content of parent items in other hierarchical sections.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"150\" alt=\"action menu\" src=\"{{Images.ContextualHelp.ActionMenuParent}}\"></div></div>",
+        "attachTo": ".sf-main.-list.-hierarchical .sf-tree-list sf-tree tree-node:first-child sf-action-menu",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "margin-top": -11,
+          "marginLeft": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "pagesfaq",
+    "urlPattern": "\/Sitefinity\/adminapp\/pages?($|[?])",
+    "content": "<h4 class=\"-sf-h-large -sf-mb-2xs\">Learn how to...</h4><ul class=\"-list-style-none\"><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/apply-built-in-page-templates-to-pages?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Apply templates to pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/add-widgets-on-pages-and-templates?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Add widgets to pages and templates</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/revision-history-of-pages?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with revision history</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/create-a-personalized-version-of-a-page?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Personalize pages</a></li><li class=\"-sf-mb-3xs\"><a href=\"https://www.progress.com/documentation/sitefinity-cms/keyboard-shortcut-functions?ref=sf-contexthelp\" target=\"_blank\"><i class=\"fa fa-book -sf-mr-4xs\"></i>Work with keyboard shortcuts</a></li></ul>",
+    "look": "faq",
+    "fixedDimensions": {
+      "bottom": 50,
+      "right": 50
+    },
+    "showOnce": false
+  },
+  {
+    "id": "pagesSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/pages?($|[?])",
+    "collection": [
+      {
+        "id": "pageshint1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Change the order and hierarchy of pages</h4><p>You can reorder pages or change their parent page thus modifying where pages are located within the website navigation. This may also affect their URLs.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"127\" src=\"{{Images.ContextualHelp.ReorderPages}}\" alt=\"reorder pages\"></div></div>",
+        "attachTo": ".sf-main__header .sf-button:not(.-action)",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 10,
+          "marginLeft": -21
+        }
+      },
+      {
+        "id": "pageshint2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Open sidebar to sort  and filter pages</h4><p>Sort pages alphabetically or by date created and date modified. Filter by language and status. Apply custom filters by owner and date range.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"168\" alt=\"sorting and filters\" src=\"{{Images.ContextualHelp.SidebarSortFilterPages}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-button[title*=\"Filter \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "pageshint3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Settings for pages</h4><p>Manage settings for pages, such as permissions, custom fields, or templates. Set the homepage of your website.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"128\" alt=\"settings for pages\" src=\"{{Images.ContextualHelp.SettingsPages}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-button[title*=\"Settings for \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 6
+        }
+      },
+      {
+        "id": "pageshint4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Reveal more selection options and bulk actions</h4><p>Tick one or more checkboxes to view additional options for selecting items and to reveal bulk actions.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"128\" alt=\"reveal more and bulk\" src=\"{{Images.ContextualHelp.BulkActionsPages}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-tree-list tree-node-checkbox .tree-node-checkbox",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 10,
+          "marginLeft": -26
+        }
+      },
+      {
+        "id": "pageshint5",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Find more actions for pages</h4><p>Find all available actions for pages, such as edit content, or properties. Additional options are available like creating a child page and duplicating a page.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"184\" alt=\"more actions\" src=\"{{Images.ContextualHelp.ActionMenuPages}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-tree-list sf-tree tree-node:first-child sf-action-menu",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "marginTop": -12
+        },
+        "zIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "editPageSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/pages\/[A-Za-z0-9_-]*\/?Action\/Edit",
+    "collection": [
+      {
+        "id": "editpagehint1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Switch and manage language versions</h4><p>Switch between available language versions of the current page. Add new language versions and change their behaviour.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"140\" alt=\"switch language dropdown\" src=\"{{Images.ContextualHelp.LanguagesMenuPages}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-languages-dropdown",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7
+        }
+      },
+      {
+        "id": "editpagehint2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">More actions for the current page</h4><p>Unpublish or schedule the current page for publishing. Additional options are available like permissions, revision history and content location.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"184\" alt=\"more actions for pages\" src=\"{{Images.ContextualHelp.ActionMenuPagesInEdit}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-action-menu [aria-label=\"More Options\"].sf-button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 14,
+          "marginLeft": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "flatSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/((?!(images|taxonomies|documents|videos|contentitems))[A-Za-z0-9_-]*)(\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/(?!(create|edit))([A-Za-z0-9_-]*))?($|[?])",
+    "collection": [
+      {
+        "id": "flathint1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Open sidebar to sort and filter content</h4><p>Sort list items alphabetically or by date created and date modified. Filter by language and status. Apply custom filters by taxonomies, author, and date range.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"172\" alt=\"sorting and filters\" src=\"{{Images.ContextualHelp.SidebarSortFilter}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-button[title*=\"Filter \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "flathint2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Settings for current section</h4><p>Manage settings for content items, such as permissions or custom fields. Access the Recycle bin, if enabled.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"123\" alt=\"settings for section\" src=\"{{Images.ContextualHelp.Settings}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-button[title*=\"Settings for \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 6
+        }
+      },
+      {
+        "id": "flathint3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Reveal more selection options and bulk actions</h4><p>Tick one or more checkboxes to view additional options for selecting items and to reveal bulk actions.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"125\" alt=\"reveal more and bulk\" src=\"{{Images.ContextualHelp.BulkActions}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-tree-list tree-node-checkbox .tree-node-checkbox",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 10,
+          "marginLeft": -26
+        }
+      },
+      {
+        "id": "flathint4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Edit and translate content items</h4><p>Access easily the content items in different languages  or add new translation.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"122\" alt=\"edit and translate items\" src=\"{{Images.ContextualHelp.EditItem}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) sf-list-languages sf-badge:first-child",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "marginTop": -14
+        }
+      },
+      {
+        "id": "flathint5",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Find more actions for each content item</h4><p>Publish, unpublish or schedule for publishing a content item from the list. Additional options are available like permissions and sending for translation. Access previous versions in revision history. Any item can be duplicated or deleted from the list too.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"234\" alt=\"more actions\" src=\"{{Images.ContextualHelp.ActionMenu}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-tree-list sf-tree tree-node:first-child sf-action-menu",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "marginTop": -12
+        },
+        "zIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "editSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/((?!(images|documents|videos|contentitems))[A-Za-z0-9_-]*)\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/([A-Za-z0-9_-]*\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/)?edit",
+    "collection": [
+      {
+        "id": "createedithint1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Go back to the list with all content items</h4><p>Return to the list with all items anytime. Make sure you save changes of this item first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"116\" alt=\"go back to list\" src=\"{{Images.ContextualHelp.List}}\"></div></div>",
+        "attachTo": ".sf-button[title=\"All items\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "createedithint2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Switch language versions</h4><p>Switch between available language versions of the current item. Compare translations of this content.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"134\" alt=\"switch language dropdown\" src=\"{{Images.ContextualHelp.LanguagesMenu}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-languages-dropdown",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7
+        }
+      },
+      {
+        "id": "edithint3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Item status, author and date</h4><p>See the item status - Draft or Published, who the author is, date of creation or publication, and when the last changes were made.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"143\" alt=\"item status and date\" src=\"{{Images.ContextualHelp.ItemStatus}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-heading-status",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 21
+        }
+      },
+      {
+        "id": "edithint4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">More actions for the current content item</h4><p>Unpublish or schedule the current item for publishing. Additional options are available like permissions, revision history, content location and analytics (if enabled).</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"187\" alt=\"more actions for content item\" src=\"{{Images.ContextualHelp.ActionMenuInEdit}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-action-menu [aria-label=\"More Options\"].sf-button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 14,
+          "marginLeft": 10
+        }
+      },
+      {
+        "id": "edithint5",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Browse sibling items</h4><p>No need to go back to the list with all items to open another one. Open the sidebar and switch between content items of the current section. Make sure you save changes of this item first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"180\" alt=\"list of siblings\" src=\"{{Images.ContextualHelp.SidebarItems}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-sidebar-buttons .sf-button[title*=\"Browse other \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 6
+        }
+      },
+      {
+        "id": "edithint6",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Edit the title of your content</h4><p>Just click on the Title input and start typing.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"110\" alt=\"edit an item\" src=\"{{Images.ContextualHelp.TitleEdit}}\"></div></div>",
+        "attachTo": ".sf-main.-details [data-sf-tooltip=\"input-title\"]",
+        "look": "down-left"
+      },
+      {
+        "id": "edithint7",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Edit your text</h4><p>Just click on the rich text input and start typing.Use the toolbar to format the content.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"110\" alt=\"edit your text\" src=\"{{Images.ContextualHelp.TextEdit}}\"></div></div>",
+        "attachTo": ".sf-main.-details .-sf-wrapper-html",
+        "appendToParent": true,
+        "look": "down-left",
+        "fixedDimensions": {
+          "top": 0,
+          "position": "absolute"
+        },
+        "boxModelDimensions": {
+          "marginTop": 50,
+          "marginLeft": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "createSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/((?!(contentitems))[A-Za-z0-9_-])*\/((([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/[A-Za-z0-9_-]*\/)?create",
+    "collection": [
+      {
+        "id": "createedithint1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Go back to the list with all content items</h4><p>Return to the list with all items anytime. Make sure you save changes of this item first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"116\" alt=\"back to items\" src=\"{{Images.ContextualHelp.List}}\"></div></div>",
+        "attachTo": ".sf-button[title=\"All items\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 5,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "createedithint2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Switch language versions</h4><p>Switch between available language versions of the current item. Compare translations of this content.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"134\" alt=\"switch language dropdown\" src=\"{{Images.ContextualHelp.LanguagesMenu}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-languages-dropdown",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 5
+        }
+      },
+      {
+        "id": "createhint3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Schedule for publishing</h4><p>No need to publish newly created items right away. Schedule a date when to publish them on the site.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"110\" alt=\"schedule for publishing\" src=\"{{Images.ContextualHelp.Schedule}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-action-menu [aria-label=\"More Options\"].sf-button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 13,
+          "marginLeft": 10
+        }
+      },
+      {
+        "id": "createhint4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Put a title on your content</h4><p>Just click on the Title input and start typing.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"110\" alt=\"create an item\" src=\"{{Images.ContextualHelp.TitleCreate}}\"></div></div>",
+        "attachTo": ".sf-main.-details [data-sf-tooltip=\"input-title\"]",
+        "look": "down-left"
+      },
+      {
+        "id": "createhint5",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Create your text</h4><p>Just click on the rich text input and start typing. Use the toolbar to format the content.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"110\" alt=\"create your text\" src=\"{{Images.ContextualHelp.TextCreate}}\"></div></div>",
+        "appendToParent": true,
+        "attachTo": ".sf-main.-details .-sf-wrapper-html",
+        "look": "down-left",
+        "fixedDimensions": {
+          "top": 0,
+          "position": "absolute"
+        },
+        "boxModelDimensions": {
+          "marginTop": 65,
+          "marginLeft": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "imageLibrariesRootSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/images($|[?])",
+    "collection": [
+      {
+        "id": "imageLibrariesRootSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Browse image libraries</h4><p>Open the sidebar to quickly access and navigate through all image libraries.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"124\" alt=\"Browse images\" src=\"{{Images.ContextualHelp.BrowseImageLibraries}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Browse images\"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "imageLibrariesRootSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Settings for images</h4><p>Switch between different views for images. Manage settings for thumbnails and more.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"128\" alt=\"Settings for images\" src=\"{{Images.ContextualHelp.SettingsForImages}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Settings for \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "imageLibrariesRootSequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Display library options</h4><p>Select a library to edit its properties, move it to another library or reorder its images.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"114\" alt=\"Display library options\" src=\"{{Images.ContextualHelp.DisplayLibrariesOptions}}\"></div></div>",
+        "attachTo": ".sf-grid.-albums sf-library-preview:first-child",
+        "look": "right-up",
+        "boxModelDimensions": {
+          "marginTop": -4,
+          "marginLeft": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "imageLibrariesChildSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/images\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/images($|[?])",
+    "collection": [
+      {
+        "id": "imageLibrariesChildSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Sort and filter images</h4><p>Sort images by date. Filter by language and status. Apply custom filters by category, tag, author, date range, and file extension.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"161\" alt=\"Sort and filter images\" src=\"{{Images.ContextualHelp.SortAndFilterImages}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Filter images\"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "imageLibrariesChildSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Display bulk actions</h4><p>Select multiple items to view bulk actions. Select only images to view more actions applicable specifically for them.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"134\" alt=\"Display bulk actions\" src=\"{{Images.ContextualHelp.DisplayBulkActions}}\"></div></div>",
+        "attachTo": ".sf-flickr-gallery sf-thumbnail:first-child",
+        "look": "right-up",
+        "boxModelDimensions": {
+          "marginTop": -12,
+          "marginLeft": -10
+        }
+      }
+    ]
+  },
+  {
+    "id": "imageEditSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/images\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/([A-Za-z0-9_-]*\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/)?edit",
+    "collection": [
+      {
+        "id": "imageEditSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Go back to the library</h4><p>Return to the list with all images. Make sure you save all changes first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"116\" alt=\"go back to list\" src=\"{{Images.ContextualHelp.BackToLibrary}}\"></div></div>",
+        "attachTo": ".sf-button[title=\"All items\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "imageEditSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">More options for this image</h4><p>View the original image and all its sizes. Embed or download the image.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"172\" alt=\"more actions for content item\" src=\"{{Images.ContextualHelp.MoreOptionsForImages}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-action-menu [aria-label=\"More Options\"].sf-button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 14,
+          "marginLeft": 5
+        }
+      },
+      {
+        "id": "imageEditSequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Image settings</h4><p>Crop, resize, or rotate an image. Replace the file or select a different file for the current translation only.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"139\" alt=\"image settings\" src=\"{{Images.ContextualHelp.ImageSettings}}\"></div></div>",
+        "attachTo": "sf-file-preview .sf-row.-sf-txt-hint sf-button",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 5,
+          "marginLeft": -18
+        }
+      }
+    ]
+  },
+  {
+    "id": "imageReorderSequence",
+    "urlPattern": "\\/Sitefinity\\/adminapp\\/content\\/images\\/\\(dialog:confirm\\/default\\)",
+    "collection": [
+      {
+        "id": "imageReorderSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Reorder images</h4><p>Use drag-and-drop to rearrange images the way you want them displayed on the public site.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"100\" alt=\"reorder images\" src=\"{{Images.ContextualHelp.ReorderImages}}\"></div></div>",
+        "attachTo": ".sf-modal-window__content sf-file-reorder sf-file-list sf-thumbnail:first-child",
+        "look": "right-up",
+        "boxModelDimensions": {
+          "marginTop": -12,
+          "marginLeft": -9
+        }
+      }
+    ]
+  },
+  {
+    "id": "documentLibrariesRootSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/documents($|[?])",
+    "collection": [
+      {
+        "id": "documentLibrariesRootSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Browse document libraries</h4><p>Open the sidebar to quickly access and navigate through all document libraries.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"130\" alt=\"Browse documents\" src=\"{{Images.ContextualHelp.BrowseDocumentLibraries}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Browse documents\"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "documentLibrariesChildSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/documents\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/documents($|[?])",
+    "collection": [
+      {
+        "id": "documentLibrariesChildSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Sort and filter documents</h4><p>Sort documents by title and date. Filter by language and status. Apply custom filters by category, tag, author, and date range.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"150\" alt=\"Sort and filter documents\" src=\"{{Images.ContextualHelp.SortAndFilterDocuments}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Filter documents\"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      }
+    ]
+  },
+  {
+    "id": "documentEditSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/documents\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/([A-Za-z0-9_-]*\/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/)?edit",
+    "collection": [
+      {
+        "id": "documentEditSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Go back to the library</h4><p>Return to the list with all documents. Make sure you save all changes first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"106\" alt=\"Go back to list\" src=\"{{Images.ContextualHelp.BackToDocumentLibrary}}\"></div></div>",
+        "attachTo": ".sf-button[title=\"All items\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "documentEditSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">More options for this document</h4><p>Embed or download the document. Additional options are available like permissions, revision history, and document location.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"182\" alt=\"more actions for content item\" src=\"{{Images.ContextualHelp.MoreOptionsForDocs}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-action-menu [aria-label=\"More Options\"].sf-button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 14,
+          "marginLeft": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "taxonomiesRootSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/taxonomies($|[?])",
+    "collection": [
+      {
+        "id": "taxonomiesRootSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Explore classification items</h4><p>Click on a classification to view its items.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"95\" alt=\"explore classitfication items\" src=\"{{Images.ContextualHelp.ExploreClassificationItems}}\"></div></div>",
+        "attachTo": ".sf-main.-list.-hierarchical sf-main-field .sf-row__col",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginLeft": 28
+        }
+      },
+      {
+        "id": "taxonomiesRootSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Usage in sites</h4><p>See which sites use this classification.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"97\" alt=\"child grid\" src=\"{{Images.ContextualHelp.ClassificationUsageInSite}}\"></div></div>",
+        "attachTo": "tree-node-collection div tree-node:first-child .sf-tree-list__cell:nth-child(2)",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "margin-top": -2,
+          "marginLeft": 10
+        }
+      },
+      {
+        "id": "taxonomiesRootSequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Find more actions</h4><p>Edit classification properties or define which sites to use it. Additional options are available like permissions and sending for translation.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"142\" alt=\"action menu\" src=\"{{Images.ContextualHelp.ClassificationMoreOptions}}\"></div></div>",
+        "attachTo": ".sf-main.-list.-hierarchical .sf-tree-list sf-tree tree-node:first-child sf-action-menu",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "margin-top": -11,
+          "marginLeft": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "taxonomiesHierarchySequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/taxonomies\/e5cd6d69-1543-427b-ad62-688a99f5e7d4\/hierarchy-taxa($|[?])",
+    "collection": [
+      {
+        "id": "taxonomiesHierarchySequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Order categories</h4><p>Reorder categories manually the way you want them displayed on the public site.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"121\" alt=\"order categories\" src=\"{{Images.ContextualHelp.OrderCategories}}\"></div></div>",
+        "attachTo": ".sf-main-list-header__buttons sf-action-menu sf-button:nth-child(2) button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": -22
+        }
+      },
+      {
+        "id": "taxonomiesHierarchySequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Display more selection options and bulk actions</h4><p>Select one or more checkboxes to edit properties or to move items to another category.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"125\" alt=\"more selection options\" src=\"{{Images.ContextualHelp.CategoriesMoreSelectionOptions}}\"></div></div>",
+        "attachTo": "tree-node-collection div tree-node:first-child tree-node-checkbox",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": -12,
+          "marginLeft": -6
+        }
+      },
+      {
+        "id": "taxonomiesHierarchySequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Where a category is used</h4><p>View a list of all categorized content items.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"84\" alt=\"where used\" src=\"{{Images.ContextualHelp.WhereUsedCategory}}\"></div></div>",
+        "attachTo": "tree-node-collection div tree-node:first-child sf-applied-to i",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "margin-top": -10,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "taxonomiesHierarchySequence4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Find more actions</h4><p>Edit properties, create a child category, and move items to another category.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"139\" alt=\"action menu\" src=\"{{Images.ContextualHelp.MoreOptionsCategories}}\"></div></div>",
+        "attachTo": "tree-node-collection div tree-node:first-child sf-action-menu",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "margin-top": -11,
+          "marginLeft": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "taxonomiesFlatSequence",
+    "urlPattern": "\/Sitefinity\/adminapp\/content\/taxonomies\/cb0f3a19-a211-48a7-88ec-77495c0f5374\/flat-taxa($|[?])",
+    "collection": [
+      {
+        "id": "taxonomiesFlatSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Display more selection options and bulk actions</h4><p>Select one or more checkboxes to edit properties in bulk, merge tags, or move items to another tag.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"125\" alt=\"more selection options\" src=\"{{Images.ContextualHelp.TagsMoreSelectionOptions}}\"></div></div>",
+        "attachTo": "tree-node-collection div tree-node:first-child tree-node-checkbox",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": -12,
+          "marginLeft": -16
+        }
+      },
+      {
+        "id": "taxonomiesFlatSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Where a tag is used</h4><p>View a list of all tagged content items.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"84\" alt=\"where used\" src=\"{{Images.ContextualHelp.WhereUsedTag}}\"></div></div>",
+        "attachTo": "tree-node-collection div tree-node:first-child sf-applied-to i",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "margin-top": -10,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "taxonomiesFlatSequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Find more actions</h4><p>Edit properties or move items to another tag.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"142\" alt=\"action menu\" src=\"{{Images.ContextualHelp.MoreOptionsTags}}\"></div></div>",
+        "attachTo": "tree-node-collection div tree-node:first-child sf-action-menu",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "margin-top": -11,
+          "marginLeft": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": "videoLibrariesRootSequence",
+    "urlPattern": "/Sitefinity/adminapp/content/videos($|[?])",
+    "collection": [
+      {
+        "id": "videoLibrariesRootSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Browse video libraries</h4><p>Open the sidebar to quickly access and navigate through all video libraries.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"130\" alt=\"Browse videos\" src=\"{{Images.ContextualHelp.BrowseVideoLibraries}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Browse videos\"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "videoLibrariesRootSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Settings for videos</h4><p>Switch between different views for videos. Manage permissions and more.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"120\" alt=\"Settings for videos\" src=\"{{Images.ContextualHelp.SettingsForVideos}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Settings for \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "videoLibrariesRootSequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Display library options</h4><p>Select a library to edit its properties, move it to another library or reorder its videos.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"114\" alt=\"Display library options\" src=\"{{Images.ContextualHelp.DisplayVideoLibrariesOptions}}\"></div></div>",
+        "attachTo": ".sf-grid.-albums sf-library-preview:first-child",
+        "look": "right-up",
+        "boxModelDimensions": {
+          "marginTop": -4,
+          "marginLeft": -5
+        }
+      }
+    ]
+  },
+  {
+    "id": "videoLibrariesChildSequence",
+    "urlPattern": "/Sitefinity/adminapp/content/videos/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/videos($|[?])",
+    "collection": [
+      {
+        "id": "videoLibrariesChildSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Sort and filter videos</h4><p>Sort videos by date. Filter by language and status. Apply custom filters by category, tag, author, date range, and file extension.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"161\" alt=\"Sort and filter vidoes\" src=\"{{Images.ContextualHelp.SortAndFilterImages}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Filter videos\"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "videoLibrariesChildSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Display bulk actions</h4><p>Select multiple items to view bulk actions. Select only videos to view more actions applicable specifically for them.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"99\" alt=\"Display bulk actions\" src=\"{{Images.ContextualHelp.DisplayVideosBulkActions}}\"></div></div>",
+        "attachTo": ".sf-flickr-gallery sf-thumbnail:first-child",
+        "look": "right-up",
+        "boxModelDimensions": {
+          "marginTop": -12,
+          "marginLeft": -10
+        }
+      }
+    ]
+  },
+  {
+    "id": "videoEditSequence",
+    "urlPattern": "/Sitefinity/adminapp/content/videos/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/([A-Za-z0-9_-]*/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/)?edit",
+    "collection": [
+      {
+        "id": "videoEditSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Go back to the library</h4><p>Return to the list with all videos. Make sure you save all changes first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"108\" alt=\"go back to list\" src=\"{{Images.ContextualHelp.BackToVideoLibrary}}\"></div></div>",
+        "attachTo": ".sf-button[title=\"All items\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "videoEditSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">More options for this video</h4><p>Play, embed or download the video. Additional options are available like permissions, revision history, and video location.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"164\" alt=\"more actions for content item\" src=\"{{Images.ContextualHelp.MoreOptionsForVideos}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-action-menu [aria-label=\"More Options\"].sf-button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 14,
+          "marginLeft": 5
+        }
+      },
+      {
+        "id": "videoEditSequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Video settings</h4><p>Replace the file or select a different file for the current translation only.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"131\" alt=\"image settings\" src=\"{{Images.ContextualHelp.VideoSettings}}\"></div></div>",
+        "attachTo": "sf-file-preview .sf-row.-sf-txt-hint sf-button",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 5,
+          "marginLeft": -18
+        }
+      },
+      {
+        "id": "videoEditSequence4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Thumbnail options</h4><p>Capture a video frame or upload a custom image for the current video.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"143\" alt=\"image settings\" src=\"{{Images.ContextualHelp.VideoThumbnailOptions}}\"></div></div>",
+        "attachTo": "sf-field-section sf-video-thumbnail sf-button[arialabel=\"Change thumbnail\"]",
+        "look": "right-up",
+        "boxModelDimensions": {
+          "marginTop": -9,
+          "marginLeft": -10
+        }
+      }
+    ]
+  },
+  {
+    "id": "videoReorderSequence",
+    "urlPattern": "\\/Sitefinity\\/adminapp\\/content\\/videos\\/\\(dialog:confirm\\/default\\)",
+    "collection": [
+      {
+        "id": "videoReorderSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Reorder videos</h4><p>Use drag-and-drop to rearrange videos the way you want them displayed on the public site.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"100\" alt=\"reorder images\" src=\"{{Images.ContextualHelp.ReorderVideos}}\"></div></div>",
+        "attachTo": ".sf-modal-window__content sf-file-reorder sf-file-list sf-thumbnail:first-child",
+        "look": "right-up",
+        "boxModelDimensions": {
+          "marginTop": -12,
+          "marginLeft": -10
+        }
+      }
+    ]
+  },
+  {
+    "id": "contentItemsSequence",
+    "urlPattern": "/Sitefinity/adminapp/content/contentitems($|[?])",
+    "collection": [
+      {
+        "id": "contentItemsSequence1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Sort and filter content blocks</h4><p>Sort content blocks alphabetically, by date created, оr date modified. Filter by language. Apply custom filters by taxonomies, author, and date range.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"173\" alt=\"Sort and filter content blocks\" src=\"{{Images.ContextualHelp.SortAndFilterContentBlocks}}\"></div></div>",
+        "attachTo": ".sf-button[title*=\"Filter content blocks\"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 4,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "contentItemsSequence2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Display more selection options and bulk actions</h4><p>Select multiple items to assign tags and categories in bulk. Select only content blocks to view more actions applicable specifically for them.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"114\" alt=\"Display more selection options and bulk actions\" src=\"{{Images.ContextualHelp.DisplayContentBlockBulkActions}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-tree-list tree-node-checkbox .tree-node-checkbox",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 10,
+          "marginLeft": -26
+        }
+      },
+      {
+        "id": "contentItemsSequence3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Edit and translate content blocks</h4><p>Easily access the content blocks in different languages  or add new translation.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"122\" alt=\"Edit and translate content blocks\" src=\"{{Images.ContextualHelp.EditContentBlock}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) sf-list-languages sf-badge:first-child",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "marginTop": -14,
+          "marginLeft": 5
+        }
+      },
+      {
+        "id": "contentItemsSequence4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Where a content block is used</h4><p>View a list of all pages and templates sharing a content block.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"134\" alt=\"Where a content block is used\" src=\"{{Images.ContextualHelp.ContentBlockUsed}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) sf-shared-in a:first-child",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "marginTop": -10,
+          "marginLeft": 5
+        }
+      },
+      {
+        "id": "contentItemsSequence5",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Find more actions</h4><p>Edit or duplicate a content block. Additional options are available like permissions and sending for translation. Access previous versions in revision history.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"195\" alt=\"Find more actions\" src=\"{{Images.ContextualHelp.ContentBlockActionMenu}}\"></div></div>",
+        "attachTo": ".sf-main.-list:not(.-hierarchical) .sf-tree-list sf-tree tree-node:first-child sf-action-menu",
+        "look": "left-up",
+        "boxModelDimensions": {
+          "marginTop": -12,
+          "marginLeft": 10
+        },
+        "zIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "contentItemsCreateSequence",
+    "urlPattern": "/Sitefinity/adminapp/content/contentitems/((([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})\/[A-Za-z0-9_-]*\/)?create",
+    "collection": [
+      {
+        "id": "contentItemsCreate1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Go back to the list with all content blocks</h4><p>Return to the list with all content blocks. Make sure you save all changes first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"101\" alt=\"Go back to the list with all content blocks\" src=\"{{Images.ContextualHelp.BackToContentBlocks}}\"></div></div>",
+        "attachTo": ".sf-button[title=\"All items\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "contentItemsCreate2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Switch language versions</h4><p>Switch between available language versions of the current item. Compare translations of this content block.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"134\" alt=\"Switch language versions\" src=\"{{Images.ContextualHelp.LanguagesMenu}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-languages-dropdown",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": -8
+        }
+      },
+      {
+        "id": "contentItemsCreate3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Put a title on your content</h4><p>Just click on the Title input and start typing.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"125\" alt=\"Put a title on your content\" src=\"{{Images.ContextualHelp.ContentBlockTitleCreate}}\"></div></div>",
+        "attachTo": ".sf-main.-details [data-sf-tooltip=\"input-title\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": -5
+        }
+      },
+      {
+        "id": "contentItemsCreate4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Create your text</h4><p>Just click on the rich text input and start typing. Use the toolbar to format the content.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"110\" alt=\"Create your text\" src=\"{{Images.ContextualHelp.TextCreate}}\"></div></div>",
+        "appendToParent": true,
+        "attachTo": ".sf-main.-details .-sf-wrapper-html",
+        "look": "down-left",
+        "fixedDimensions": {
+          "top": 0,
+          "position": "absolute"
+        },
+        "boxModelDimensions": {
+          "marginTop": 60
+        }
+      }
+    ]
+  },
+  {
+    "id": "contentItemsEditSequence",
+    "urlPattern": "/Sitefinity/adminapp/content/contentitems/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/([A-Za-z0-9_-]*/(([0-9a-fA-F]){8}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){4}-([0-9a-fA-F]){12})/)?edit",
+    "collection": [
+      {
+        "id": "contentItemsEdit1",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Go back to the list with all content blocks</h4><p>Return to the list with all content blocks. Make sure you save all changes first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"101\" alt=\"Go back to the list with all content blocks\" src=\"{{Images.ContextualHelp.BackToContentBlocks}}\"></div></div>",
+        "attachTo": ".sf-button[title=\"All items\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": 4
+        }
+      },
+      {
+        "id": "contentItemsEdit2",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Switch language versions</h4><p>Switch between available language versions of the current item. Compare translations of this content block.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"134\" alt=\"Switch language versions\" src=\"{{Images.ContextualHelp.LanguagesMenu}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-languages-dropdown",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 7,
+          "marginLeft": -8
+        }
+      },
+      {
+        "id": "contentItemsEdit3",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Author and date</h4><p>See the creation date, when the last changes were made, and who the author is.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"127\" alt=\"Author and date\" src=\"{{Images.ContextualHelp.ContentBlockItemStatus}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-heading-status",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": 33
+        }
+      },
+      {
+        "id": "contentItemsEdit4",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">More actions for this content block</h4><p>Duplicate or send for translation the current content block. Additional options are available like permissions and revision history.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"157\" alt=\"More actions for this content block\" src=\"{{Images.ContextualHelp.MoreOptionsForContentBlock}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-action-menu [aria-label=\"More Options\"].sf-button",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 14,
+          "marginLeft": 5
+        }
+      },
+      {
+        "id": "contentItemsEdit5",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Browse sibling items</h4><p>No need to go back to the list with all items to open another one. Open the sidebar and switch between content blocks. Make sure you save changes of this item first.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"178\" alt=\"Browse sibling items\" src=\"{{Images.ContextualHelp.ContentBlockSidebarItems}}\"></div></div>",
+        "attachTo": ".sf-top-toolbar sf-sidebar-buttons .sf-button[title*=\"Browse other \"]",
+        "look": "down-right",
+        "boxModelDimensions": {
+          "marginTop": 6
+        }
+      },
+      {
+        "id": "contentItemsEdit6",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Edit the title of your content</h4><p>Just click on the Title input and start typing.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"125\" alt=\"Edit the title of your content\" src=\"{{Images.ContextualHelp.ContentBlockTitleEdit}}\"></div></div>",
+        "attachTo": ".sf-main.-details [data-sf-tooltip=\"input-title\"]",
+        "look": "down-left",
+        "boxModelDimensions": {
+          "marginTop": -10
+        }
+      },
+      {
+        "id": "contentItemsEdit7",
+        "content": "<div class=\"sf-help sf-row -no-wrap\"><div class=\"sf-help__col1 -sf-mr-xs\"><h4 class=\"-sf-h-large -sf-mb-2xs\">Edit your text</h4><p>Just click on the rich text input and start typing. Use the toolbar to format the content.</p></div><div class=\"sf-help__col2\"><img width=\"150\" height=\"110\" alt=\"Edit your text\" src=\"{{Images.ContextualHelp.TextEdit}}\"></div></div>",
+        "attachTo": ".sf-main.-details .-sf-wrapper-html",
+        "appendToParent": true,
+        "look": "down-left",
+        "fixedDimensions": {
+          "top": 0,
+          "position": "absolute"
+        },
+        "boxModelDimensions": {
+          "marginTop": 55
+        }
+      }
+    ]
+  }
+]
